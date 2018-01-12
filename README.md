@@ -1,2 +1,2 @@
 # recipes
-recipes (of mostly peruvian) recipes
+book of (mostly peruvian) recipes
