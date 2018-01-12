@@ -2,3 +2,6 @@
 title = "Recipes"
 author = "Andres Medina, Yvonne Chen"
 description = "book of (mostly peruvian) recipes"
+
+[build]
+build-dir = "docs"
