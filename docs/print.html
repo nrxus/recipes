@@ -63,7 +63,7 @@
         </script>
 
         <div id="sidebar" class="sidebar">
-            <ul class="chapter"><li><a href="./aji_de_gallina.html"><strong>1.</strong> Aji De Gallina</a></li></ul>
+            <ul class="chapter"><li><a href="./introdución.html"><strong>1.</strong> Español</a></li><li><ul class="section"><li><a href="./aji_de_gallina.html"><strong>1.1.</strong> Aji De Gallina</a></li></ul></li><li><a href="./introduction.html"><strong>2.</strong> English</a></li><li><ul class="section"><li><a href="./chicken_chili_pepper.html"><strong>2.1.</strong> Chicken Chili Pepper</a></li></ul></li></ul>
         </div>
 
         <div id="page-wrapper" class="page-wrapper">
@@ -86,7 +86,8 @@
                 </div>
 
                 <div id="content" class="content">
-                    <a class="header" href="print.html#aji-de-gallina-7-porciones" id="aji-de-gallina-7-porciones"><h1>AJI DE GALLINA (7 Porciones)</h1></a>
+                    <a class="header" href="print.html#español" id="español"><h1>Español</h1></a>
+<a class="header" href="print.html#aji-de-gallina-7-porciones" id="aji-de-gallina-7-porciones"><h1>AJI DE GALLINA (7 Porciones)</h1></a>
 <a class="header" href="print.html#ingredientes" id="ingredientes"><h3>Ingredientes:</h3></a>
 <ul>
 <li>Pan (1-2 panes franceses)</li>
@@ -118,6 +119,8 @@ Si es pollo viene sin hueso, es efective usar dos tenedores para desilachar el p
 <p>El queso parmesano se puede agregar ahora si se prefiere el queso combinado con el aji amarillo, o se puede esperar al final y se echa encima como adorno.</p>
 <p>Dejar hervir mientras se mueve con una cuchara de madera hasta que llegue a la consistencia deseada.</p>
 <p>Se sirve en un plato con las papas abajo y el aji de pollo encima de las papas. Opcionalmente se le puede poner arroz y/o huevo al lado.</p>
+<a class="header" href="print.html#english" id="english"><h1>English</h1></a>
+<a class="header" href="print.html#chicken-chili-pepper" id="chicken-chili-pepper"><h1>Chicken Chili Pepper</h1></a>
 
                 </div>
 
@@ -144,6 +147,20 @@ Si es pollo viene sin hueso, es efective usar dos tenedores para desilachar el p
 
         <!-- Livereload script (if served using the cli tool) -->
         
+    <script type="text/javascript">
+        var socket = new WebSocket("ws://localhost:3001");
+        socket.onmessage = function (event) {
+            if (event.data === "reload") {
+                socket.close();
+                location.reload(true); // force reload from server (not from cache)
+            }
+        };
+
+        window.onbeforeunload = function() {
+            socket.close();
+        }
+    </script>
+
 
         
 
