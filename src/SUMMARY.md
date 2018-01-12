@@ -1,3 +1,3 @@
-# Summary
+# Recipes
 
-- [Chapter 1](./chapter_1.md)
+- [Aji De Gallina](./aji_de_gallina.md)
