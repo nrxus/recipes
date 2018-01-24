@@ -1,6 +1,6 @@
 AJÍ DE GALLINA (7 Porciones)
-============================
-[Spicy Creamed Chicken](./spicy_creamed_chicken.html)
+==============================
+[Chicken Chili](./chicken_chili.html)
 
 ### Ingredientes:
 
