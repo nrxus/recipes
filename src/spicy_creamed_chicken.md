@@ -1,12 +1,13 @@
-# Spicy Creamed Chicken
-[Aji de Gallina](./aji_de_gallina.html)
+CHICKEN CHILI (7 Servings)
+============================
+[Ají de Gallina](./aji_de_gallina.html)
 
 ### Ingredients:
 
 * Bread (1-2 rolls)
-* Chicken (2.5 bonesless OR 4.5 lbs bone-in)
-* Minced/Crushed Garlic (2-3 tsps)
-* Peruvian Yellow Pepper (3 tbps)
+* Chicken (2.5 boneless OR 4.5 lbs bone-in)
+* Minced/Crushed Garlic (2-3 tsp)
+* Peruvian Yellow Pepper (3 tbsp)
 * Turmeric
 * Milk
 * Parmesan Cheese

@@ -1,1 +1,0 @@
-# Spicy Creamed Chicken
