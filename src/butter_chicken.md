@@ -1,6 +1,6 @@
 BUTTER CHICKEN 奶油鸡 (7 Servings)
 ===================================
-[Pollo Mantecoso](./pollo_mantecoso.html)
+[Pollo de Mantequilla](./pollo_de_mantequilla.html)
 
 Based on [Purple Bowl](http://purplebowl.blogspot.ca/2014/08/creamy-butter-chicken-recipe.html) recipe
 
