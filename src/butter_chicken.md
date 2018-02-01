@@ -1,4 +1,4 @@
-BUTTER CHICKEN 奶油鸡 (7 Servings)
+BUTTER CHICKEN 奶油雞 (7 Servings)
 ===================================
 [Pollo de Mantequilla](./pollo_de_mantequilla.html)
 
