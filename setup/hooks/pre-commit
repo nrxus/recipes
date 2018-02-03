@@ -1,0 +1,16 @@
+#!/bin/sh
+#
+# Builds the recipe book and stages changed book files
+GIT_ROOT=$(git rev-parse --show-toplevel)
+
+cd $GIT_ROOT
+mdbook build
+rc=$?
+
+if [ ! $rc -eq 0 ]; then 
+	echo "pre-commit hook: mdbook build failed"
+else
+	git add docs
+fi
+
+exit $rc
