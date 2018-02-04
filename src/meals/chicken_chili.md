@@ -1,6 +1,6 @@
 CHICKEN CHILI (7 Servings)
 ============================
-[Ají de Gallina](./aji_de_gallina.html)
+[Ají de Gallina](./meals/aji_de_gallina.html)
 
 ### Ingredients:
 

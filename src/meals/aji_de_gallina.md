@@ -1,6 +1,6 @@
 AJÍ DE GALLINA (7 Porciones)
 ==============================
-[Chicken Chili](./chicken_chili.html)
+[Chicken Chili](./meals/chicken_chili.html)
 
 ### Ingredientes:
 

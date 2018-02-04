@@ -11,7 +11,7 @@ Calories:
 
 ### Ingredients:
 
-* All-purpose flour 2 cups)
+* All-purpose flour (2 cups)
 * Baking powder (4 tsp)
 * Salt (1/2 tsp)
 * Sugar (1/4 cup)

@@ -7,4 +7,6 @@
     	- [Chicken Chili](./meals/chicken_chili.md)
     	- [Butter Chicken](./meals/butter_chicken.md)
 	- [Baked Goods](./baked/baked_title.md)
+		- [Pie Crust](./baked/pie_crust.md)
 		- [Scones](./baked/scones.md)
+		- [Pecan Pie](./baked/pecan_pie.md)
