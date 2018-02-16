@@ -6,6 +6,7 @@
 	- [Meals](./meals/meal_title.md)
     	- [Chicken Chili](./meals/chicken_chili.md)
     	- [Butter Chicken](./meals/butter_chicken.md)
+    	- [Dumplings](./meals/chinese_dumplings.md)
 	- [Baked Goods](./baked/baked_title.md)
 		- [Pie Crust](./baked/pie_crust.md)
 		- [Scones](./baked/scones.md)
