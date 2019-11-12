@@ -11,3 +11,4 @@
 		- [Pie Crust](./baked/pie_crust.md)
 		- [Scones](./baked/scones.md)
 		- [Pecan Pie](./baked/pecan_pie.md)
+		- [Pecan Pie](./baked/pineapple_tart.md)
