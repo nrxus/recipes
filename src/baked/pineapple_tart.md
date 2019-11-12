@@ -1,7 +1,7 @@
 Pineapple Tart
 ============================
 
-![Original recipe](pineapple_tart.jpg)
+![Original recipe](./baked/pineapple_tart.jpg)
 
 Makes ~100 pieces of small tarts
 
