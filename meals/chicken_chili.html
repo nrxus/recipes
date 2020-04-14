@@ -1,0 +1,256 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Chicken Chili - Recipes &amp; Recetas</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="Recipes of (mostly peruvian) meals and baked goods">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../introdución.html"><strong aria-hidden="true">1.</strong> Español</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../meals/aji_de_gallina.html"><strong aria-hidden="true">1.1.</strong> Ají De Gallina</a></li><li class="chapter-item expanded "><a href="../meals/pollo_de_mantequilla.html"><strong aria-hidden="true">1.2.</strong> Pollo De Mantequilla</a></li></ol></li><li class="chapter-item expanded "><a href="../introduction.html"><strong aria-hidden="true">2.</strong> English</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../meals/meal_title.html"><strong aria-hidden="true">2.1.</strong> Meals</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../meals/chicken_chili.html" class="active"><strong aria-hidden="true">2.1.1.</strong> Chicken Chili</a></li><li class="chapter-item expanded "><a href="../meals/butter_chicken.html"><strong aria-hidden="true">2.1.2.</strong> Butter Chicken</a></li><li class="chapter-item expanded "><a href="../meals/chinese_dumplings.html"><strong aria-hidden="true">2.1.3.</strong> Dumplings</a></li></ol></li><li class="chapter-item expanded "><a href="../baked/baked_title.html"><strong aria-hidden="true">2.2.</strong> Baked Goods</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../baked/pie_crust.html"><strong aria-hidden="true">2.2.1.</strong> Pie Crust</a></li><li class="chapter-item expanded "><a href="../baked/scones.html"><strong aria-hidden="true">2.2.2.</strong> Scones</a></li><li class="chapter-item expanded "><a href="../baked/pecan_pie.html"><strong aria-hidden="true">2.2.3.</strong> Pecan Pie</a></li><li class="chapter-item expanded "><a href="../baked/pineapple_tart.html"><strong aria-hidden="true">2.2.4.</strong> Pineapple Tart</a></li></ol></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">Recipes &amp; Recetas</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1><a class="header" href="#chicken-chili-7-servings" id="chicken-chili-7-servings">CHICKEN CHILI (7 Servings)</a></h1>
+<p><a href="./meals/aji_de_gallina.html">Ají de Gallina</a></p>
+<h3><a class="header" href="#ingredients" id="ingredients">Ingredients:</a></h3>
+<ul>
+<li>Bread (1-2 rolls)</li>
+<li>Chicken (2.5 boneless OR 4.5 lbs bone-in)</li>
+<li>Minced/Crushed Garlic (2-3 tsp)</li>
+<li>Peruvian Yellow Pepper (3 tbsp)</li>
+<li>Turmeric</li>
+<li>Milk</li>
+<li>Parmesan Cheese</li>
+<li>Potatoes (7 medium-sized)</li>
+<li>Vegetable Oil</li>
+</ul>
+<h4><a class="header" href="#optional" id="optional">Optional:</a></h4>
+<ul>
+<li>Rice (2.5 cups)</li>
+<li>Eggs (4 units)</li>
+</ul>
+<h3><a class="header" href="#procedure" id="procedure">Procedure:</a></h3>
+<p>The following could be done in parallel:</p>
+<ul>
+<li>Boil the potatoes with a bit of salt</li>
+<li>Boil the chicken with a bit of salt</li>
+<li>Boil the eggs</li>
+<li>Cook the rice</li>
+</ul>
+<p>After the chicken is done (tender), pull it. Save the water in which the chicken was cooked for later.
+If the chicken is boneless, it is effective to use two forks to help pull the chicken.</p>
+<p>In a frying pan, add a bit of oil and start heating it at mid temperature.
+While it's heating, lightly fry the garlic until golden, stirring often.
+Once the garlic is ready, start frying the yellow pepper on top.
+When the pepper and the garlic are properly sautéed, add the tumeric to taste and the water from the chicken from earlier.
+Pay attention to the color to determine when it's enough.
+Continue stirring and add the bread for consistency. Once the bread is well integrated with the mixture (no obvious lumps), add a bit of milk to taste.</p>
+<p>At this step you may add some of the parmesan cheese into the mixture, or wait to add it on top of the meal later as a garnish.</p>
+<p>Let the mixture cook while stirring every so often until the desired consistency is achieved. </p>
+<p>It is served in a plate with sliced potatoes served under the spicy cream. You may optionally add rice and/or a boiled egg to the side.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="../meals/meal_title.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="../meals/butter_chicken.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a rel="prev" href="../meals/meal_title.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a rel="next" href="../meals/butter_chicken.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+        
+        
+        <script type="text/javascript">
+            window.playpen_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>
