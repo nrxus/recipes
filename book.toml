@@ -1,7 +1,4 @@
 [book]
-title = "Recipes"
+title = "Recipes & Recetas"
 author = "Andres Medina, Yvonne Chen"
-description = "book of (mostly peruvian) recipes"
-
-[build]
-build-dir = "docs"
+description = "Recipes of (mostly peruvian) meals and baked goods"

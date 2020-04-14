@@ -1,6 +1,3 @@
-# recipes
-A book of (mostly peruvian) recipes
+# Recipes & Recetas
 
-## Setup
-
-Run setup/setup.sh to install a pre-commit hook that builds the recipe book.
+Receipes of (mostly peruvian) meals and baked goods
