@@ -10,3 +10,4 @@
   - [Scones](./baked/scones.md)
   - [Pecan Pie](./baked/pecan_pie.md)
   - [Pineapple Tart](./baked/pineapple_tart.md)
+[History](./history.md)
