@@ -13,6 +13,11 @@ History
 - 02/20/2021: Ceviche de Pollo
 - 02/28/2021: Seco de Carne
 - 03/06/2021: Lomo Saltado
+- 03/13/2021: Pan con Chicharron
+- 03/20/2021: Hainanese Chicken Rice (Roasted)
+- 03/28/2021: Pan con Pollo
+- 04/05/2021: Tallarin Saltado (con Huancaina)
+- 04/12/2021: Carne Con Camote
 
 Upcoming
 =======================================
@@ -39,10 +44,10 @@ Upcoming
 - Carne con Camote
 - Huancaina
 - Estofado (pollo/carne)
-- Hainanese Chicken Rice (Roasted)
 - Bistec a lo Pobre
 - Papa con Atun
-- Sanguches: pollo, atun, salchicha, chicharron
+- Sanguches: atun, salchicha
+- Tallaring Rojo
 
 Postres
 ====================================
