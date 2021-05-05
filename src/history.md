@@ -1,5 +1,4 @@
-History
-=======================================
+# Historia
 
 - 07/23/2020: Alfajores de Lucuma
 - 07/23/2020: Alfajores de Maizena
@@ -18,39 +17,61 @@ History
 - 03/28/2021: Pan con Pollo
 - 04/05/2021: Tallarin Saltado (con Huancaina)
 - 04/12/2021: Carne Con Camote
+- 04/17/2021: Pollo Punta de Cuy
+- 05/02/2021: Papa Rellena
 
-Upcoming
-=======================================
+# Pronto
 
-- Punta de Cuy (pollo/cerdo)
+## Pollo
+
 - Arroz con Pollo
 - Pollo Punta de Cabrito
-- Aji de Pollo
+- Aji de Gallina
 - Pollo Mechado (pure/lentejas)
 - Butter Chicken
-- Carapulcra (Pollo/Cerdo)
-- Ceviche (Pescado)
-- Sudado
+- Carapulcra
 - Escabeche de Pollo
-- Mollejitas
+- Estofado
+- Tallaring Rojo
+
+## Res
+
 - Olluco
 - Guiso de Carne
 - Carne encebollada
-- Tallarin Saltado (molida/lomo)
-- Papa Rellena
+- Tallarin Saltado (carne molida)
 - Trigo de Carne
 - Tallarin Verde
 - Albondiga (huevo/garbanzo)
-- Carne con Camote
-- Huancaina
-- Estofado (pollo/carne)
+- Estofado
 - Bistec a lo Pobre
-- Papa con Atun
-- Sanguches: atun, salchicha
 - Tallaring Rojo
 
-Postres
-====================================
+## Cerco
+
+- Carapulcra
+- Punta de Cuy
+- Pan con Salchicha
+
+## Pescado
+
+- Ceviche (Pescado)
+- Sudado
+- Papa con Atun
+- Pan con Atun
+
+## Otros
+
+- Mollejitas
+
+# Entradas
+
+- Papa a la Huancaina
+- Ensalada Rusa
+- Ensalada de Palta
+
+# Postres
+
 - Pionono (lucuma/manjarblanco)
 - Torta (chocolate, naranja, helada)
 - Crema Volteada
