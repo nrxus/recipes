@@ -17,4 +17,4 @@ Makes enough moderate filling for 8ish buns?
 * Fold in milk powder and mix until just combined
 * Weigh and roll into desired quantity
 * Keep refrigerated until needed
-* To use in a bread roll recipe, eg (this one](https://www.kingarthurbaking.com/recipes/japanese-milk-bread-rolls-recipe): after shaping rolls, let them proof for 10-15 min. Then flatten and add a glob of filling, making sure to tightly pinch and seal the edges. Continue with second proof and baking instructions as directed.
+* To use in a bread roll recipe, eg [this one](https://www.kingarthurbaking.com/recipes/japanese-milk-bread-rolls-recipe): after shaping rolls, let them proof for 10-15 min. Then flatten and add a glob of filling, making sure to tightly pinch and seal the edges. Continue with second proof and baking instructions as directed.
