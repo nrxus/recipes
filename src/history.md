@@ -19,6 +19,12 @@
 - 04/12/2021: Carne Con Camote
 - 04/17/2021: Pollo Punta de Cuy
 - 05/02/2021: Papa Rellena
+- 05/10/2021: Aji de Gallina
+- 05/17/2021: Bistec a lo Pobre
+- 05/31/2021: "Chaufa" con Res
+- 06/06/2021: Hainanese Chicken Rice (Steamed)
+- 06/13/2021: Olluco
+- 06/20/2021: Chancho a Punta de Cuy
 
 # Pronto
 
@@ -26,7 +32,6 @@
 
 - Arroz con Pollo
 - Pollo Punta de Cabrito
-- Aji de Gallina
 - Pollo Mechado (pure/lentejas)
 - Butter Chicken
 - Carapulcra
@@ -36,7 +41,6 @@
 
 ## Res
 
-- Olluco
 - Guiso de Carne
 - Carne encebollada
 - Tallarin Saltado (carne molida)
@@ -44,13 +48,12 @@
 - Tallarin Verde
 - Albondiga (huevo/garbanzo)
 - Estofado
-- Bistec a lo Pobre
 - Tallaring Rojo
+- Carne Asada
 
-## Cerco
+## Cerdo
 
 - Carapulcra
-- Punta de Cuy
 - Pan con Salchicha
 
 ## Pescado
