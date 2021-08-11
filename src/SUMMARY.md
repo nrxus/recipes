@@ -11,4 +11,5 @@
   - [Pecan Pie](./baked/pecan_pie.md)
   - [Pineapple Tart](./baked/pineapple_tart.md)
   - [Naisu (奶酥) Filling](./baked/naisu_filling.md)
+  - [Cheesecake Brownies](./baked/cheesecake_brownies.md)
 [History](./history.md)
