@@ -25,6 +25,14 @@
 - 06/06/2021: Hainanese Chicken Rice (Steamed)
 - 06/13/2021: Olluco
 - 06/20/2021: Chancho a Punta de Cuy
+- 06/27/2021: Causa con Atun
+- 07/04/2021: Tallarin Rojo con Carne
+- 07/18/2021: Carne Encebollada
+- 07/23/2021: Alfajores de Lucuma
+- 08/01/2021: Tallarin Verde
+- 08/15/2021: Chicharron
+- 08/21/2021: Pollo Mechado (lentejas)
+- 08/22/2021: Anticuchos
 
 # Pronto
 
@@ -32,7 +40,7 @@
 
 - Arroz con Pollo
 - Pollo Punta de Cabrito
-- Pollo Mechado (pure/lentejas)
+- Pollo Mechado (pure)
 - Butter Chicken
 - Carapulcra
 - Escabeche de Pollo
@@ -42,13 +50,10 @@
 ## Res
 
 - Guiso de Carne
-- Carne encebollada
 - Tallarin Saltado (carne molida)
 - Trigo de Carne
-- Tallarin Verde
 - Albondiga (huevo/garbanzo)
 - Estofado
-- Tallaring Rojo
 - Carne Asada
 
 ## Cerdo
@@ -78,4 +83,3 @@
 - Pionono (lucuma/manjarblanco)
 - Torta (chocolate, naranja, helada)
 - Crema Volteada
-- Alfajores (lucuma, maizena)
