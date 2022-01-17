@@ -13,7 +13,7 @@
 115g flour
 1/2 tsp of salt
 4 drops of vanilla
-1 tsp of baking soda
+1 tsp of baking powder
 
 ------- classic -------
 10 g each

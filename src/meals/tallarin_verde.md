@@ -13,8 +13,8 @@ TALARRIN VERDE (7 porciones)
 * 4 tbsp yellow pepper
 * Fettuccine (1 lb - 1600 calories)
 
+1 oz of basil instead; half fresh cheese; half parmesan cheese
+
 total so far: 1107
 
 ### Preparacion:
-
-* 

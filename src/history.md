@@ -33,28 +33,35 @@
 - 08/15/2021: Chicharron
 - 08/21/2021: Pollo Mechado (lentejas)
 - 08/22/2021: Anticuchos
+- 09/01/2021: Carne Asada
+- 09/12/2021: Anticuchos de Pollo
+- 09/18/2021: Escabeche de Pescado
+- 09/25/2021: Lomo con Huancaina
+- 10/03/2021: Arroz con Pollo
+- 10/10/2021: Chicken & Waffles
+- 10/31/2021: Pollo Punta de Cabrito
+- 11/06/2021: Tallarin Rojo (pollo)
+- 11/14/2021: Estofado de Carne
+- 11/28/2021: Aji de Gallina
+- 12/05/2021: Pan con Chicharron
+- 12/12/2021: Tallarin Saltado (carne molida)
+- 12/20/2021: Pollo Punta de Cabrito
+- 01/02/2022: Carapulcra (pollo)
+- 01/09/2022: Carne con Camote
+- 01/17/2022: Pollo Mechado (Pure)
 
 # Pronto
 
 ## Pollo
 
-- Arroz con Pollo
-- Pollo Punta de Cabrito
-- Pollo Mechado (pure)
 - Butter Chicken
-- Carapulcra
 - Escabeche de Pollo
 - Estofado
-- Tallaring Rojo
 
 ## Res
 
-- Guiso de Carne
-- Tallarin Saltado (carne molida)
 - Trigo de Carne
 - Albondiga (huevo/garbanzo)
-- Estofado
-- Carne Asada
 
 ## Cerdo
 
