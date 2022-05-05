@@ -4,7 +4,7 @@ Adapted from:
 * [Tasty Co](https://tasty.co/recipe/classic-basque-cheesecake)
 * [i am a food blog](https://iamafoodblog.com/basque-cheesecake/)
 
-### Ingredients (8 inch):
+### Ingredients (9 inch):
 * 2 lb cream cheese, softened (4 packs)
 * 1.25 cups granulated sugar (250g)
 * 5 large eggs, room temperature
@@ -13,6 +13,9 @@ Adapted from:
 * 3 teaspoons vanilla extract
 * 1 teaspoon salt
 * 0.25 cup all purpose flour
+
+### Ingredients (8 inch):
+TBD
 
 ### Ingredients (6 inch):
 * 1 lb cream cheese, softened (2 packs)
