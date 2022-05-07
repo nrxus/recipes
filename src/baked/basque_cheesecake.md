@@ -23,7 +23,7 @@ TBD
 * 150g granulated sugar
 * 3 large eggs, room temperature
 * 1 cup heavy cream, room temperature
-* 1 teaspoons vanilla extract
+* 2 teaspoons vanilla extract
 * 1/2 teaspoon salt
 * 2 tbsp all purpose flour
 
@@ -35,7 +35,7 @@ TBD
 * Use a fine-mesh sieve to sift in the flour, then mix until just incorporated.
 * Crumple 1 or 2 sheets of parchment paper (depending on pan size), then unwrap and press into pan, stacking the top sheet perpendicular to the bottom sheet so the entire pan is covered. Make sure some excess sticks up from the sides as the cheesecake will rise quite a bit. If using a removable bottom pan, you can use the insert to help press the paper into shape.
 * Pour the batter into the pan and smooth the top. Place on a baking sheet.
-* Bake the cheesecake until the top is a dark golden brown and the cake is slightly jiggly in the center, 50–60 minutes (8 inch) 35-45 min (?? WIP) (6 inch). If the top doesn't seem brown enough when otherwise ready, broil for 30 sec - 1 min (be careful and check often as it burns fast). DON'T LET THE PARCHMENT PAPER BURN BY TOUCHING THE UPPER HEATING ELEMENT.
+* Bake the cheesecake until the top is a dark golden brown and the cake is slightly jiggly in the center, 50–60 minutes. If the top doesn't seem brown enough when otherwise ready, broil for 30 sec - 1 min (be careful and check often as it burns fast). DON'T LET THE PARCHMENT PAPER BURN BY TOUCHING THE UPPER HEATING ELEMENT.
 * Cooling suggestions:
     * Let cool at room temperature for 2 hours, then remove the springform and gently unwrap the parchment from the sides of the cheesecake. Cheescake can also be refrigerated covered for a few days.
     * Let cool at room temperature , then refrigerate uncovered for 5 hours or 2 days
