@@ -63,7 +63,8 @@ If there is any juice from the vegetables when you chop/shred them, don’t add 
 
 ### If making ahead of time
 #### A,B,C, and dumplings containing juice like 小籠包
-If making ahead of timeMix ground meat with seasonings. Add water little by little while stirring. Stop when the meat can't absorb any more water. Keep the meat in the fridge overnight. Add vegetables before making dumplings.
+If making ahead of time:
+Mix ground meat with seasonings. Add water little by little while stirring. Stop when the meat can't absorb any more water. Keep the meat in the fridge overnight. Add vegetables before making dumplings.
 
 #### D, E
 Add vegetables right before you are going to make dumplings. This can prevent the filling from becoming watery.
@@ -74,9 +75,12 @@ Coming soon
 
 ## Cooking directions
 ### Fresh dumplings
-Boil water, then put in dumplings. Don't overcrowd the pot.
+Boil water, then turn heat down to medium. 
 
-Turn heat down so water is at a simmer. Cook dumlpings until they float, about 5 minutes. Wait for another minute or so, then immediately remove with a slotted spoon. Overcooked dumplings will fall apart
+After putting dumplings in pot, continue heating until water boils again. Then pour in cold water until it stops boiling. Repeat one more times.
 
 ### Frozen dumplings
-Coming soon
+
+Boil water, then turn heat down to medium. 
+
+After putting dumplings in pot, continue heating until water boils again. Then pour in cold water until it stops boiling. Repeat two more times.
