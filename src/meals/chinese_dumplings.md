@@ -69,18 +69,35 @@ Mix ground meat with seasonings. Add water little by little while stirring. Stop
 #### D, E
 Add vegetables right before you are going to make dumplings. This can prevent the filling from becoming watery.
 
+## Tips
+
+* Make sure to seal dumplings very tightly
+* Don't trap air in the dumpling, or they'll float too soon
+* Don't overcook dumplings, or the skin will fall apart
+
 ## Wrappers
 
-Coming soon
+Coming soong
 
 ## Cooking directions
 ### Fresh dumplings
-Boil water, then turn heat down to medium. 
 
-After putting dumplings in pot, continue heating until water boils again. Then pour in cold water until it stops boiling. Repeat one more times.
+Boil water on high heat.
+
+Once water is at a rolling boil, put dumplings in pot.
+
+Once water is back to a rolling boil, turn down the heat to medium/medium high and keep water at a rolling boil until dumplings are floating (dumplings may float too soon if they weren't made properly, so eyeball it).
+
+Add ~1 cup of cold water and keep on high heat. Wait for water to get to a rolling boil again and dumplings are floating. Turn off the heat immediately.
 
 ### Frozen dumplings
 
-Boil water, then turn heat down to medium. 
+Boil water on high heat.
 
-After putting dumplings in pot, continue heating until water boils again. Then pour in cold water until it stops boiling. Repeat two more times.
+Once water is at a rolling boil, put dumplings in pot.
+
+Once water is back to a rolling boil, turn down the heat to medium/medium high and keep water at a rolling boil until dumplings are floating (dumplings may float too soon if they weren't made properly, so eyeball it).
+
+Add ~1 cup of cold water and keep on high heat. Wait for water to get to a rolling boil again and dumplings are floating. 
+
+Add another cup of cold water.  Wait for water to get to a rolling boil again, then turn off the heat immediately.
