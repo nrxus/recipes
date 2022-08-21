@@ -49,13 +49,27 @@
 - 01/02/2022: Carapulcra (pollo)
 - 01/09/2022: Carne con Camote
 - 01/17/2022: Pollo Mechado (Pure)
+- 03/27/2022: Escabeche de Pescado
+- 04/10/2022: Pollo Mechado (Lentejas)
+- 04/17/2022: Causa Frita
+- 04/24/2022: Tallarin Rojo
+- 05/01/2022: Arroz Tapado
+- 05/08/2022: Papa con Atun
+- 06/27/2022: Pollo Punta de Cabrito
+- 07/03/2022: Escabeche de Pollo
+- 07/10/2022: Pollo a Punta de Cuy
+- 07/17/2022: Tallarin Verde
+- 07/24/2022: Carne Encobollada
+- 07/31/2022: Pan con Pollo
+- 08/07/2022: Tallarin Rojo
+- 08/14/2022: Papa Rellena
+- 08/20/2022: Pork + Beef Dumplings
 
 # Pronto
 
 ## Pollo
 
 - Butter Chicken
-- Escabeche de Pollo
 - Estofado
 
 ## Res
