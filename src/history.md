@@ -55,6 +55,7 @@
 - 04/24/2022: Tallarin Rojo
 - 05/01/2022: Arroz Tapado
 - 05/08/2022: Papa con Atun
+- 06/20/2022: Pollo Mechado
 - 06/27/2022: Pollo Punta de Cabrito
 - 07/03/2022: Escabeche de Pollo
 - 07/10/2022: Pollo a Punta de Cuy
@@ -64,6 +65,11 @@
 - 08/07/2022: Tallarin Rojo
 - 08/14/2022: Papa Rellena
 - 08/20/2022: Pork + Beef Dumplings
+- 09/04/2022: Risotto Rice
+- 09/18/2022: Carne con Camote
+- 09/24/2022: Vainita Saltada
+- 10/02/2022: Anticuchos
+- 10/10/2022: Cebiche de Pollo
 
 # Pronto
 
