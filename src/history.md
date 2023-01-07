@@ -48,7 +48,7 @@
 - 12/20/2021: Pollo Punta de Cabrito
 - 01/02/2022: Carapulcra (pollo)
 - 01/09/2022: Carne con Camote
-- 01/17/2022: Pollo Mechado (Pure)
+- 01/17/2022: Pollo Mechado (Puré)
 - 03/27/2022: Escabeche de Pescado
 - 04/10/2022: Pollo Mechado (Lentejas)
 - 04/17/2022: Causa Frita
@@ -70,6 +70,12 @@
 - 09/24/2022: Vainita Saltada
 - 10/02/2022: Anticuchos
 - 10/10/2022: Cebiche de Pollo
+- 10/23/2022: Arroz con Pollo
+- 10/30/2022: Seco de Carne (Frijoles)
+- 11/06/2022: Pollo Mechado (Puré)
+- 11/11/2022: Trigo con Carne
+- 01/01/2022: Pallo al Pavo
+- 01/08/2022: Siu Mai
 
 # Pronto
 

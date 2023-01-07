@@ -16,7 +16,7 @@
 1 tsp of baking powder
 
 ------- classic -------
-10 g each
+120 g each
 
 ------ manjarblanco -------
 
