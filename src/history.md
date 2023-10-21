@@ -76,30 +76,40 @@
 - 11/11/2022: Trigo con Carne
 - 01/01/2022: Pallo al Pavo
 - 01/08/2022: Siu Mai
+- 04/02/2023: Trigo de Carne
+- 04/09/2023: Pollo Chi Hua Kay
+- 04/16/2023: Tallarin Rojo con Carne
+- 04/23/2023: Tonkatsu
+- 07/16/2023: Tallarin Saltado con Huancaina
+- 08/06/2023: Lu Rou Fan
+- 08/13/2023: Chaufa con Carne
+- 08/20/2023: Chancho a Punta de Cuy
+- 09/03/2023: Tallaron Rojo con Pollo
+- 09/10/2023: Carne Encobollada (Alberjitas)
+- 09/17/2023: Pan con Salchicha
+- 09/24/2023: Carne con Camote
+- 10/01/2023: Pollo Mechado (Lentejitas)
+- 10/08/2023: Albondiga con Garbanzo
+- 10/15/2023: Pollo a Punta de Cuy
+- 10/22/2023: Butter Chicken
 
 # Pronto
 
 ## Pollo
 
-- Butter Chicken
 - Estofado
 
 ## Res
 
-- Trigo de Carne
-- Albondiga (huevo/garbanzo)
-
 ## Cerdo
 
 - Carapulcra
-- Pan con Salchicha
 
 ## Pescado
 
 - Ceviche (Pescado)
 - Sudado
 - Papa con Atun
-- Pan con Atun
 
 ## Otros
 
