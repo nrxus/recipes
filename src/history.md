@@ -92,6 +92,12 @@
 - 10/08/2023: Albondiga con Garbanzo
 - 10/15/2023: Pollo a Punta de Cuy
 - 10/22/2023: Butter Chicken
+- 01/01/2024: Carne Asada
+- 01/07/2024: Pasta con Salmon + Champinones
+- 01/14/2024: Honey Mustard Glazed Popcorn Chicken
+- 01/14/2024: Soft-boiled tea eggs
+- 01/21/2024: Salmon a la Naranja
+- 01/27/2024: Tallarin Saltado (Pollo)
 
 # Pronto
 
