@@ -13,4 +13,5 @@
   - [Pie Crust](./baked/pie_crust.md)
   - [Pineapple Tart](./baked/pineapple_tart.md)
   - [Scones](./baked/scones.md)
+  - [Biscuits](./baked/biscuits.md)
 [History](./history.md)
