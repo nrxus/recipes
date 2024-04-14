@@ -23,7 +23,7 @@ Calories:
 
 Preheat oven to 425F.
 
-In a large bowl, whisk together flour, baking bowder, salt, and sugar.
+In a large bowl, whisk together flour, baking powder, salt, and sugar.
 
 Chop up butter into small pieces. Add butter to dry ingredients and mix with your hands until the texture is sandy and has no more butter lumps.
 
