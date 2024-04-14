@@ -1,6 +1,7 @@
-Scones
+Scones (WIP)
 ============================
 Based on [Fifteen Spatulas](https://www.fifteenspatulas.com/english-style-scones/) recipe
+DID NOT WORK. Find more recipes
 
 "English style"
 
@@ -11,13 +12,13 @@ Calories:
 
 ### Ingredients:
 
-* All-purpose flour (2 cups)
-* Baking powder (4 tsp)
+* All-purpose flour (280 g) (still too wet?)
+* Baking powder (4 tsp) (16 g)
 * Salt (1/2 tsp)
-* Sugar (1/4 cup)
+* Sugar (1/4 cup) (49.5 g)
 * Unsalted butter (6 tbsp, room temperature)
 * Egg (1 large)
-* Milk/heavy whipping cream (2/3 cup)
+* Milk/heavy whipping cream (2/3 cup) (160 g)
 
 ### Directions:
 
