@@ -3,6 +3,8 @@ Scones (WIP)
 Based on [Fifteen Spatulas](https://www.fifteenspatulas.com/english-style-scones/) recipe
 DID NOT WORK. Find more recipes
 
+Try: https://www.carolinescooking.com/british-scones/
+
 "English style"
 
 Calories: 
