@@ -98,6 +98,13 @@
 - 01/14/2024: Soft-boiled tea eggs
 - 01/21/2024: Salmon a la Naranja
 - 01/27/2024: Tallarin Saltado (Pollo)
+- 09/22/2024: Carne con Camote
+- 09/29/2024: Bistec a la Parrilla
+- 10/06/2024: Aji de Pollo
+- 03/08/2025: Carne Molida chifa o tacu tacu
+- 03/15/2025: Lomo Saltado
+- 03/22/2025: Pollo Chifa al Horno
+- 03/29/2025: Pollo Punta de Cuy
 
 # Pronto
 
