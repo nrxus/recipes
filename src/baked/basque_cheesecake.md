@@ -1,4 +1,57 @@
-Basque Cheesecake (WIP)
+Basque Cheesecake - extra cheese variant
+============================
+
+Adapted from [Giacomo Bocchio](https://www.youtube.com/watch?v=gNo_RuXV8w0)
+
+### Tools
+* 8 inch with removable bottom
+* 6 inch pan with removable bottom
+* Immersion blender
+
+### Ingredients 
+Originally for 25cm / 9.8 inch pan, but worked well with an 8 inch + 6 inch pan
+
+Note: 7 large grade A chicken eggs produced around the right amount of yolk/white
+
+Cheesecake
+* 3 8oz packs cream cheese, room temp
+  * recipe calls for 600g
+* 375g of any buttery cheese. Mild flavor results in good texture but not much extra taste; use stronger cheese next time
+* 25g blue cheese
+* 400g sugar
+* 140g egg yolk
+* 280g egg white
+* 1 pint heavy cream
+  * recipe calls for 500g
+* 30g flour
+
+Balsamic reduction
+* 1:1 ratio by weight of balsamic vinegar and sugar
+
+### Directions, cheesecake
+* Preheat oven to 415F
+  * recipe calls for 220C, but that seemed a bit too high
+* Add heavy cream and buttery cheese to a pot in medium-low heat. Whisk it and melt it slowly. Don't let it reach a boil
+* Put cream cheese in a bowl and cream it. Easiest to start with a spatula; may never get soft enough to whisk. Important thing is just to get all the lumps out
+* When cream and cheese mixture is almost done, add blue cheese, continue whisking until it melts in
+* Once the cheese mixture has melted, pour it onto the cream cheese. Use immersion blender to combine until mixture cools down a little before adding eggs, as you don't want the eggs to cook
+* Don't over mix, or dairy will curdle
+* Add rest of ingredients: egg yolk, egg white, sugar, flour, then continue blending
+  * in recipe, everything is just dumped in at once
+* Line pans with parchment paper. Cut off excess, leaving just a cm or two folded over the edge. If paper is too high, it begins to burn and crumple
+* Pour batter in
+* Put pans in oven. Bake for a total of 32 minutes. Every 8 minutes, rotate the pans clockwise by 90 degrees so top bakes evenly
+  * Towards the end, keep a close eye on it to make sure it doesn't burn
+* After removing from oven, let cakes sit on cooling racks until room temp or at least only slightly warm
+* Leave in pans, then refrigerate uncovered for at least 4 hours. Overnight is better
+* Unmold before serving
+
+### Directions, balsamic reduction
+* Mix vinegar and sugar in a pot
+* Keep it at a low simmer until sugar dissolves
+
+
+Basque Cheesecake - basic variant (WIP)
 ============================
 Adapted from:
 * [Tasty Co](https://tasty.co/recipe/classic-basque-cheesecake)
