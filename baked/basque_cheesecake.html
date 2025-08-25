@@ -36,6 +36,7 @@
             const path_to_root = "../";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "../searchindex.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="../toc.js"></script>
@@ -92,10 +93,13 @@
                 sidebar = sidebar || 'visible';
             } else {
                 sidebar = 'hidden';
+                sidebar_toggle.checked = false;
             }
-            sidebar_toggle.checked = sidebar === 'visible';
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
@@ -146,7 +150,12 @@
 
                 <div id="search-wrapper" class="hidden">
                     <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                        <div class="search-wrapper">
+                            <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <i class="fa fa-spinner fa-spin"></i>
+                            </div>
+                        </div>
                     </form>
                     <div id="searchresults-outer" class="searchresults-outer hidden">
                         <div id="searchresults-header" class="searchresults-header"></div>
@@ -166,7 +175,74 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="basque-cheesecake-wip"><a class="header" href="#basque-cheesecake-wip">Basque Cheesecake (WIP)</a></h1>
+                        <h1 id="basque-cheesecake---extra-cheese-variant"><a class="header" href="#basque-cheesecake---extra-cheese-variant">Basque Cheesecake - extra cheese variant</a></h1>
+<p>Adapted from <a href="https://www.youtube.com/watch?v=gNo_RuXV8w0">Giacomo Bocchio</a></p>
+<h3 id="tools"><a class="header" href="#tools">Tools</a></h3>
+<ul>
+<li>8 inch with removable bottom</li>
+<li>6 inch pan with removable bottom</li>
+<li>Immersion blender</li>
+</ul>
+<h3 id="ingredients"><a class="header" href="#ingredients">Ingredients</a></h3>
+<p>Originally for 25cm / 9.8 inch pan, but worked well with an 8 inch + 6 inch pan</p>
+<p>Note: 7 large grade A chicken eggs produced around the right amount of yolk/white</p>
+<p>Cheesecake</p>
+<ul>
+<li>3 8oz packs cream cheese, room temp
+<ul>
+<li>recipe calls for 600g</li>
+</ul>
+</li>
+<li>375g of any buttery cheese. Mild flavor results in good texture but not much extra taste; use stronger cheese next time</li>
+<li>25g blue cheese</li>
+<li>400g sugar</li>
+<li>140g egg yolk</li>
+<li>280g egg white</li>
+<li>1 pint heavy cream
+<ul>
+<li>recipe calls for 500g</li>
+</ul>
+</li>
+<li>30g flour</li>
+</ul>
+<p>Balsamic reduction</p>
+<ul>
+<li>1:1 ratio by weight of balsamic vinegar and sugar</li>
+</ul>
+<h3 id="directions-cheesecake"><a class="header" href="#directions-cheesecake">Directions, cheesecake</a></h3>
+<ul>
+<li>Preheat oven to 415F
+<ul>
+<li>recipe calls for 220C, but that seemed a bit too high</li>
+</ul>
+</li>
+<li>Add heavy cream and buttery cheese to a pot in medium-low heat. Whisk it and melt it slowly. Don't let it reach a boil</li>
+<li>Put cream cheese in a bowl and cream it. Easiest to start with a spatula; may never get soft enough to whisk. Important thing is just to get all the lumps out</li>
+<li>When cream and cheese mixture is almost done, add blue cheese, continue whisking until it melts in</li>
+<li>Once the cheese mixture has melted, pour it onto the cream cheese. Use immersion blender to combine until mixture cools down a little before adding eggs, as you don't want the eggs to cook</li>
+<li>Don't over mix, or dairy will curdle</li>
+<li>Add rest of ingredients: egg yolk, egg white, sugar, flour, then continue blending
+<ul>
+<li>in recipe, everything is just dumped in at once</li>
+</ul>
+</li>
+<li>Line pans with parchment paper. Cut off excess, leaving just a cm or two folded over the edge. If paper is too high, it begins to burn and crumple</li>
+<li>Pour batter in</li>
+<li>Put pans in oven. Bake for a total of 32 minutes. Every 8 minutes, rotate the pans clockwise by 90 degrees so top bakes evenly
+<ul>
+<li>Towards the end, keep a close eye on it to make sure it doesn't burn</li>
+</ul>
+</li>
+<li>After removing from oven, let cakes sit on cooling racks until room temp or at least only slightly warm</li>
+<li>Leave in pans, then refrigerate uncovered for at least 4 hours. Overnight is better</li>
+<li>Unmold before serving</li>
+</ul>
+<h3 id="directions-balsamic-reduction"><a class="header" href="#directions-balsamic-reduction">Directions, balsamic reduction</a></h3>
+<ul>
+<li>Mix vinegar and sugar in a pot</li>
+<li>Keep it at a low simmer until sugar dissolves</li>
+</ul>
+<h1 id="basque-cheesecake---basic-variant-wip"><a class="header" href="#basque-cheesecake---basic-variant-wip">Basque Cheesecake - basic variant (WIP)</a></h1>
 <p>Adapted from:</p>
 <ul>
 <li><a href="https://tasty.co/recipe/classic-basque-cheesecake">Tasty Co</a></li>
@@ -222,7 +298,7 @@
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
-                            <a rel="next prefetch" href="../baked/cheesecake_brownies.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next prefetch" href="../baked/biscuits.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
 
@@ -236,7 +312,7 @@
                         <i class="fa fa-angle-left"></i>
                     </a>
 
-                    <a rel="next prefetch" href="../baked/cheesecake_brownies.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next prefetch" href="../baked/biscuits.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>
@@ -260,6 +336,7 @@
         <script src="../book.js"></script>
 
         <!-- Custom JS scripts -->
+
 
 
     </div>
