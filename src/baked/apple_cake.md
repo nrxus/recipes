@@ -14,7 +14,7 @@ Apple/Pear Cake
 * 1 table spoon sugar for base of pan (optional)
 
 ### Tools
-* 9 inch pan
+* 8-9 inch pan?
 
 ### Directions
 - Preheat oven to 350 F
