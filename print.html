@@ -13,21 +13,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
 
-        <link rel="icon" href="favicon.svg">
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+        <link rel="icon" href="favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="favicon-8114d1fc.png">
+        <link rel="stylesheet" href="css/variables-8adf115d.css">
+        <link rel="stylesheet" href="css/general-2459343d.css">
+        <link rel="stylesheet" href="css/chrome-ae938929.css">
+        <link rel="stylesheet" href="css/print-9e4910d8.css" media="print">
 
         <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link rel="stylesheet" href="fonts/fonts.css">
+        <link rel="stylesheet" href="fonts/fonts-9644e21d.css">
 
         <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" id="highlight-css" href="highlight.css">
-        <link rel="stylesheet" id="tomorrow-night-css" href="tomorrow-night.css">
-        <link rel="stylesheet" id="ayu-highlight-css" href="ayu-highlight.css">
+        <link rel="stylesheet" id="mdbook-highlight-css" href="highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="ayu-highlight-3fdfc3ac.css">
 
         <!-- Custom theme stylesheets -->
 
@@ -37,10 +36,10 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex.js";
+            window.path_to_searchindex_js = "searchindex-de101006.js";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc.js"></script>
+        <script src="toc-796525f2.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -54,7 +53,7 @@
             </div>
         </div>
     </div>
-    <div id="body-container">
+    <div id="mdbook-body-container">
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
         <script>
             try {
@@ -83,12 +82,12 @@
             html.classList.add("js");
         </script>
 
-        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script>
             let sidebar = null;
-            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
@@ -103,39 +102,39 @@
             }
         </script>
 
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
             <!-- populated by js -->
             <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
             <noscript>
                 <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
             </noscript>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
             </div>
         </nav>
 
-        <div id="page-wrapper" class="page-wrapper">
+        <div id="mdbook-page-wrapper" class="page-wrapper">
 
             <div class="page">
-                <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
-                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                            <i class="fa fa-bars"></i>
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
                         </label>
-                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                            <i class="fa fa-paint-brush"></i>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
                         </button>
-                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
                         </ul>
-                        <button id="search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="searchbar">
-                            <i class="fa fa-search"></i>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
                         </button>
                     </div>
 
@@ -143,42 +142,43 @@
 
                     <div class="right-buttons">
                         <a href="print.html" title="Print this book" aria-label="Print this book">
-                            <i id="print-button" class="fa fa-print"></i>
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
                         </a>
 
                     </div>
                 </div>
 
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
                         <div class="search-wrapper">
-                            <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
                             <div class="spinner-wrapper">
-                                <i class="fa fa-spinner fa-spin"></i>
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
                             </div>
                         </div>
                     </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
                         </ul>
                     </div>
                 </div>
 
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
                 <script>
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
                         link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
                     });
                 </script>
 
-                <div id="content" class="content">
+                <div id="mdbook-content" class="content">
                     <main>
                         <h1 id="meals"><a class="header" href="#meals">Meals</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="ajÍ-de-gallina-7-porciones"><a class="header" href="#ajÍ-de-gallina-7-porciones">AJÍ DE GALLINA (7 Porciones)</a></h1>
-<p><a href="meals/./meals/chicken_chili.html">Chicken Chili</a></p>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="ají-de-gallina-7-porciones"><a class="header" href="#ají-de-gallina-7-porciones">AJÍ DE GALLINA (7 Porciones)</a></h1>
+<p><a href="meals/meals/chicken_chili.html">Chicken Chili</a></p>
 <h3 id="ingredientes"><a class="header" href="#ingredientes">Ingredientes:</a></h3>
 <ul>
 <li>Pan (1-2 panes franceses)</li>
@@ -215,8 +215,9 @@ Mientras se mezcla, tambien se le agrega el pan para que le de consistencia a la
 <p>El queso parmesano se puede agregar ahora si se prefiere el queso combinado con el aji amarillo, o se puede esperar al final y se echa encima como adorno.</p>
 <p>Dejar hervir mientras se mueve con una cuchara de madera hasta que llegue a la consistencia deseada.</p>
 <p>Se sirve en un plato con las papas rebanadas abajo y el aji de pollo encima de las papas. Opcionalmente se le puede poner arroz y/o huevo al lado.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="butter-chicken-奶油雞-7-servings"><a class="header" href="#butter-chicken-奶油雞-7-servings">BUTTER CHICKEN 奶油雞 (7 Servings)</a></h1>
-<p><a href="meals/./pollo_de_mantequilla.html">Pollo de Mantequilla</a></p>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="butter-chicken-奶油雞-7-servings"><a class="header" href="#butter-chicken-奶油雞-7-servings">BUTTER CHICKEN 奶油雞 (7 Servings)</a></h1>
+<p><a href="#pollo-de-mantequilla-7-porciones">Pollo de Mantequilla</a></p>
 <p>Based on <a href="http://purplebowl.blogspot.ca/2014/08/creamy-butter-chicken-recipe.html">Purple Bowl</a> recipe</p>
 <h3 id="ingredients"><a class="header" href="#ingredients">Ingredients</a></h3>
 <ul>
@@ -256,8 +257,9 @@ Add the curry leaves, followed by the diced chillies. Continue stir frying until
 <p>Add the milk and water into the wok, moving it often to make sure no ingredient is stuck in the bottom or burnt. Add  the remaining of the oyster sace, the cooking wine, and salt to taste.</p>
 <p>Cook until the buttery cream has thickened. Turn off heat and add in the chicken. Toss such that the fried schicken is coated by the buttery cream.</p>
 <p>Traditionally served with rice but split peas are a good lower calorie alternative.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="chicken-chili-7-servings"><a class="header" href="#chicken-chili-7-servings">CHICKEN CHILI (7 Servings)</a></h1>
-<p><a href="meals/./meals/aji_de_gallina.html">Ají de Gallina</a></p>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="chicken-chili-7-servings"><a class="header" href="#chicken-chili-7-servings">CHICKEN CHILI (7 Servings)</a></h1>
+<p><a href="meals/meals/aji_de_gallina.html">Ají de Gallina</a></p>
 <h3 id="ingredients-1"><a class="header" href="#ingredients-1">Ingredients:</a></h3>
 <ul>
 <li>Bread (1-2 rolls)</li>
@@ -286,15 +288,16 @@ Add the curry leaves, followed by the diced chillies. Continue stir frying until
 <p>After the chicken is done (tender), pull it. Save the water in which the chicken was cooked for later.
 If the chicken is boneless, it is effective to use two forks to help pull the chicken.</p>
 <p>In a frying pan, add a bit of oil and start heating it at mid temperature.
-While it's heating, lightly fry the garlic until golden, stirring often.
+While it’s heating, lightly fry the garlic until golden, stirring often.
 Once the garlic is ready, start frying the yellow pepper on top.
 When the pepper and the garlic are properly sautéed, add the tumeric to taste and the water from the chicken from earlier.
-Pay attention to the color to determine when it's enough.
+Pay attention to the color to determine when it’s enough.
 Continue stirring and add the bread for consistency. Once the bread is well integrated with the mixture (no obvious lumps), add a bit of milk to taste.</p>
 <p>At this step you may add some of the parmesan cheese into the mixture, or wait to add it on top of the meal later as a garnish.</p>
 <p>Let the mixture cook while stirring every so often until the desired consistency is achieved.</p>
 <p>It is served in a plate with sliced potatoes served under the spicy cream. You may optionally add rice and/or a boiled egg to the side.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="chinese-dumplings"><a class="header" href="#chinese-dumplings">CHINESE DUMPLINGS</a></h1>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="chinese-dumplings"><a class="header" href="#chinese-dumplings">CHINESE DUMPLINGS</a></h1>
 <p>Recipes c/o Mom &amp; Dad</p>
 <p>(TODO: try dumpling wrapper recipe: https://omnivorescookbook.com/recipes/how-to-make-chinese-dumplings)</p>
 <h2 id="filling"><a class="header" href="#filling">Filling</a></h2>
@@ -362,14 +365,14 @@ If there is any juice from the vegetables when you chop/shred them, don’t add 
 <h3 id="if-making-ahead-of-time"><a class="header" href="#if-making-ahead-of-time">If making ahead of time</a></h3>
 <h4 id="abc-and-dumplings-containing-juice-like-小籠包"><a class="header" href="#abc-and-dumplings-containing-juice-like-小籠包">A,B,C, and dumplings containing juice like 小籠包</a></h4>
 <p>If making ahead of time:
-Mix ground meat with seasonings. Add water little by little while stirring. Stop when the meat can't absorb any more water. Keep the meat in the fridge overnight. Add vegetables before making dumplings.</p>
+Mix ground meat with seasonings. Add water little by little while stirring. Stop when the meat can’t absorb any more water. Keep the meat in the fridge overnight. Add vegetables before making dumplings.</p>
 <h4 id="d-e"><a class="header" href="#d-e">D, E</a></h4>
 <p>Add vegetables right before you are going to make dumplings. This can prevent the filling from becoming watery.</p>
 <h2 id="tips"><a class="header" href="#tips">Tips</a></h2>
 <ul>
 <li>Make sure to seal dumplings very tightly</li>
-<li>Don't trap air in the dumpling, or they'll float too soon</li>
-<li>Don't overcook dumplings, or the skin will fall apart</li>
+<li>Don’t trap air in the dumpling, or they’ll float too soon</li>
+<li>Don’t overcook dumplings, or the skin will fall apart</li>
 </ul>
 <h2 id="wrappers"><a class="header" href="#wrappers">Wrappers</a></h2>
 <p>Coming soong</p>
@@ -377,19 +380,22 @@ Mix ground meat with seasonings. Add water little by little while stirring. Stop
 <h3 id="fresh-dumplings"><a class="header" href="#fresh-dumplings">Fresh dumplings</a></h3>
 <p>Boil water on high heat.</p>
 <p>Once water is at a rolling boil, put dumplings in pot.</p>
-<p>Once water is back to a rolling boil, turn down the heat to medium/medium high and keep water at a rolling boil until dumplings are floating (dumplings may float too soon if they weren't made properly, so eyeball it).</p>
+<p>Once water is back to a rolling boil, turn down the heat to medium/medium high and keep water at a rolling boil until dumplings are floating (dumplings may float too soon if they weren’t made properly, so eyeball it).</p>
 <p>Add ~1 cup of cold water and keep on high heat. Wait for water to get to a rolling boil again and dumplings are floating. Turn off the heat immediately.</p>
 <h3 id="frozen-dumplings"><a class="header" href="#frozen-dumplings">Frozen dumplings</a></h3>
 <p>Boil water on high heat.</p>
 <p>Once water is at a rolling boil, put dumplings in pot.</p>
-<p>Once water is back to a rolling boil, turn down the heat to medium/medium high and keep water at a rolling boil until dumplings are floating (dumplings may float too soon if they weren't made properly, so eyeball it).</p>
+<p>Once water is back to a rolling boil, turn down the heat to medium/medium high and keep water at a rolling boil until dumplings are floating (dumplings may float too soon if they weren’t made properly, so eyeball it).</p>
 <p>Add ~1 cup of cold water and keep on high heat. Wait for water to get to a rolling boil again and dumplings are floating.</p>
 <p>Add another cup of cold water.  Wait for water to get to a rolling boil again, then turn off the heat immediately.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="pollo-de-mantequilla-7-porciones"><a class="header" href="#pollo-de-mantequilla-7-porciones">POLLO DE MANTEQUILLA (7 Porciones)</a></h1>
-<p><a href="meals/./butter_chicken.html">Butter Chicken</a></p>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="pollo-de-mantequilla-7-porciones"><a class="header" href="#pollo-de-mantequilla-7-porciones">POLLO DE MANTEQUILLA (7 Porciones)</a></h1>
+<p><a href="#butter-chicken-奶油雞-7-servings">Butter Chicken</a></p>
 <p>Basado en la receta en <a href="http://purplebowl.blogspot.ca/2014/08/creamy-butter-chicken-recipe.html">Purple Bowl</a></p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="baked-goods"><a class="header" href="#baked-goods">Baked Goods</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="basque-cheesecake---extra-cheese-variant"><a class="header" href="#basque-cheesecake---extra-cheese-variant">Basque Cheesecake - extra cheese variant</a></h1>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="baked-goods"><a class="header" href="#baked-goods">Baked Goods</a></h1>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="basque-cheesecake---extra-cheese-variant"><a class="header" href="#basque-cheesecake---extra-cheese-variant">Basque Cheesecake - extra cheese variant</a></h1>
 <p>Adapted from <a href="https://www.youtube.com/watch?v=gNo_RuXV8w0">Giacomo Bocchio</a></p>
 <h3 id="tools"><a class="header" href="#tools">Tools</a></h3>
 <ul>
@@ -430,11 +436,11 @@ Mix ground meat with seasonings. Add water little by little while stirring. Stop
 <li>recipe calls for 220C, but that seemed a bit too high</li>
 </ul>
 </li>
-<li>Add heavy cream and buttery cheese to a pot in medium-low heat. Whisk it and melt it slowly. Don't let it reach a boil</li>
+<li>Add heavy cream and buttery cheese to a pot in medium-low heat. Whisk it and melt it slowly. Don’t let it reach a boil</li>
 <li>Put cream cheese in a bowl and cream it. Easiest to start with a spatula; may never get soft enough to whisk. Important thing is just to get all the lumps out</li>
 <li>When cream and cheese mixture is almost done, add blue cheese, continue whisking until it melts in</li>
-<li>Once the cheese mixture has melted, pour it onto the cream cheese. Use immersion blender to combine until mixture cools down a little before adding eggs, as you don't want the eggs to cook</li>
-<li>Don't over mix, or dairy will curdle</li>
+<li>Once the cheese mixture has melted, pour it onto the cream cheese. Use immersion blender to combine until mixture cools down a little before adding eggs, as you don’t want the eggs to cook</li>
+<li>Don’t over mix, or dairy will curdle</li>
 <li>Add rest of ingredients: egg yolk, egg white, sugar, flour, then continue blending
 <ul>
 <li>in recipe, everything is just dumped in at once</li>
@@ -444,7 +450,7 @@ Mix ground meat with seasonings. Add water little by little while stirring. Stop
 <li>Pour batter in</li>
 <li>Put pans in oven. Bake for a total of 32 minutes. Every 8 minutes, rotate the pans clockwise by 90 degrees so top bakes evenly
 <ul>
-<li>Towards the end, keep a close eye on it to make sure it doesn't burn</li>
+<li>Towards the end, keep a close eye on it to make sure it doesn’t burn</li>
 </ul>
 </li>
 <li>After removing from oven, let cakes sit on cooling racks until room temp or at least only slightly warm</li>
@@ -495,7 +501,7 @@ Mix ground meat with seasonings. Add water little by little while stirring. Stop
 <li>Use a fine-mesh sieve to sift in the flour, then mix until just incorporated.</li>
 <li>Crumple 1 or 2 sheets of parchment paper (depending on pan size), then unwrap and press into pan, stacking the top sheet perpendicular to the bottom sheet so the entire pan is covered. Make sure some excess sticks up from the sides as the cheesecake will rise quite a bit. If using a removable bottom pan, you can use the insert to help press the paper into shape.</li>
 <li>Pour the batter into the pan and smooth the top. Place on a baking sheet.</li>
-<li>Bake the cheesecake until the top is a dark golden brown and the cake is slightly jiggly in the center, ~50-55 minutes (~35-40 min for 6 inch). If the top doesn't seem brown enough when otherwise ready, broil for 30 sec - 1 min (be careful and check often as it burns fast). DON'T LET THE PARCHMENT PAPER BURN BY TOUCHING THE UPPER HEATING ELEMENT.</li>
+<li>Bake the cheesecake until the top is a dark golden brown and the cake is slightly jiggly in the center, ~50-55 minutes (~35-40 min for 6 inch). If the top doesn’t seem brown enough when otherwise ready, broil for 30 sec - 1 min (be careful and check often as it burns fast). DON’T LET THE PARCHMENT PAPER BURN BY TOUCHING THE UPPER HEATING ELEMENT.</li>
 <li>Cooling suggestions:
 <ul>
 <li>Let cool at room temperature for 2 hours, then remove the springform and gently unwrap the parchment from the sides of the cheesecake. Cheescake can also be refrigerated covered for a few days.</li>
@@ -503,7 +509,8 @@ Mix ground meat with seasonings. Add water little by little while stirring. Stop
 </ul>
 </li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="biscuits"><a class="header" href="#biscuits">Biscuits</a></h1>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="biscuits"><a class="header" href="#biscuits">Biscuits</a></h1>
 <p>Sources:</p>
 <ul>
 <li>https://merryboosters.com/homemade-biscuits-without-buttermilk/: instructions from here for baking in skillet or cake pan. 450F @ ~18 minutes</li>
@@ -531,12 +538,13 @@ Mix ground meat with seasonings. Add water little by little while stirring. Stop
 <li>Transfer the dough on to a lightly floured work surface</li>
 <li>Using hands, work dough together.</li>
 <li>Once the dough is cohesive, fold in half over itself and use your hands to gently flatten layers together. Rotate the dough 90 degrees and fold in half again, repeating this step 5-6 times but taking care to not overwork the dough</li>
-<li>Use your hands (do not use a rolling pin) to flatten the dough to 1" thick and lightly dust a 2 ¾" round biscuit cutter with flour</li>
-<li>Making close cuts, press the biscuit cutter straight down into the dough and drop the biscuit onto your prepared baking sheet. Do NOT twist cutter or you'll damage the layers</li>
+<li>Use your hands (do not use a rolling pin) to flatten the dough to 1“ thick and lightly dust a 2 ¾“ round biscuit cutter with flour</li>
+<li>Making close cuts, press the biscuit cutter straight down into the dough and drop the biscuit onto your prepared baking sheet. Do NOT twist cutter or you’ll damage the layers</li>
 <li>Place the cut biscuits into skillet/dutch oven/ cake pan. No need to grease containers</li>
 <li>Bake for ~18 minutes, or until golden brown on top. (If baking on flat tray, 425F for 16 min)</li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="cheesecake-brownies-wip"><a class="header" href="#cheesecake-brownies-wip">Cheesecake Brownies (WIP)</a></h1>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="cheesecake-brownies-wip"><a class="header" href="#cheesecake-brownies-wip">Cheesecake Brownies (WIP)</a></h1>
 <p>Adapted from <a href="https://sugarspunrun.com/cheesecake-brownies/">Sugar Spun Run</a></p>
 <h3 id="ingredients-4"><a class="header" href="#ingredients-4">Ingredients:</a></h3>
 <h4 id="brownies"><a class="header" href="#brownies">Brownies:</a></h4>
@@ -564,12 +572,12 @@ Mix ground meat with seasonings. Add water little by little while stirring. Stop
 <h3 id="directions-2"><a class="header" href="#directions-2">Directions:</a></h3>
 <h4 id="brownies-1"><a class="header" href="#brownies-1">Brownies:</a></h4>
 <ul>
-<li>Preheat your oven to 350F (175C). Line a 9×9" baking pan with parchment paper (enough to overhang edges). Fold well so edges are pretty!</li>
+<li>Preheat your oven to 350F (175C). Line a 9×9“ baking pan with parchment paper (enough to overhang edges). Fold well so edges are pretty!</li>
 <li>Beat eggs, then mix in sugar to dissolve.</li>
 <li>Combine butter and chopped chocolate in a large, microwave safe bowl. Heat in 25-second intervals, stirring well in between, until both chocolate and butter are melted and mixture is smooth.</li>
 <li>Immediately add cocoa powder and instant coffee (if using) and stir until combined.</li>
 <li>Add egg/sugar mixture and vanilla extract and stir well.</li>
-<li>Sift salt and flour (try: and baking powder) over the batter and stir until completely combined, but don't overmix.</li>
+<li>Sift salt and flour (try: and baking powder) over the batter and stir until completely combined, but don’t overmix.</li>
 <li>Spread batter evenly into prepared pan and bake for 13-15 minutes (the surface of the brownies should be beginning to set, but note that the brownies will not be cooked completely during this time!)</li>
 <li>(try: Once finished, lower oven temp to 325F.)</li>
 </ul>
@@ -589,7 +597,8 @@ Mix ground meat with seasonings. Add water little by little while stirring. Stop
 <li>(work on timings!) Return to 325F oven and bake ~40-55 minutes or until cheesecake is set (center will still be jiggly if jostled). Edges may be slightly puffed or even slightly golden brown.</li>
 <li>Remove from oven and allow to cool at room temperature until no longer warm 1-2 hours). Transfer to refrigerator and chill 3-4 hours before slicing and serving.</li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="naisu-奶酥-filling"><a class="header" href="#naisu-奶酥-filling">Naisu (奶酥) Filling</a></h1>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="naisu-奶酥-filling"><a class="header" href="#naisu-奶酥-filling">Naisu (奶酥) Filling</a></h1>
 <p>Based on various Chinese food blogs and Google translate</p>
 <p>Makes enough moderate filling for 8ish buns?</p>
 <h3 id="ingredients-5"><a class="header" href="#ingredients-5">Ingredients:</a></h3>
@@ -609,7 +618,9 @@ Mix ground meat with seasonings. Add water little by little while stirring. Stop
 <li>Keep refrigerated until needed</li>
 <li>To use in a bread roll recipe, eg <a href="https://www.kingarthurbaking.com/recipes/japanese-milk-bread-rolls-recipe">this one</a>: after shaping rolls, let them proof for 10-15 min. Then flatten and add a glob of filling, making sure to tightly pinch and seal the edges. Continue with second proof and baking instructions as directed.</li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><p>Golden Diner Pancake Recipe</p>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="pancakes-untested"><a href="#pancakes-untested" class="header">Pancakes (untested)</a></h1>
+<p>Golden Diner Pancake Recipe</p>
 <p>via <a href="https://cooking.nytimes.com/recipes/1027064-golden-diner-pancakes">NYT Cooking</a></p>
 <p>Ingredients
 Yield:4 to 6 large pancakes with toppings (3 to 6 servings)</p>
@@ -669,7 +680,8 @@ To serve, center one or two hot pancakes on serving plates and evenly drench wit
 </code></pre>
 <p>Tip</p>
 <pre><code>At Golden Diner, the butter is formed into the football shape known as quenelles. You can do the same if you want: Use one spoon to scoop a round of soft maple-honey butter along its long side, then run another spoon of the same size against the first spoon to shape the butter into a football.</code></pre>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="pecan-pie"><a class="header" href="#pecan-pie">Pecan Pie</a></h1>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="pecan-pie"><a class="header" href="#pecan-pie">Pecan Pie</a></h1>
 <p>Based on <a href="https://www.epicurious.com/recipes/food/views/old-fashioned-pecan-pie-356072?intcid=inline_amp">epicurious</a> recipe</p>
 <p>Calories:</p>
 <ul>
@@ -679,7 +691,7 @@ To serve, center one or two hot pancakes on serving plates and evenly drench wit
 </ul>
 <h3 id="ingredients-6"><a class="header" href="#ingredients-6">Ingredients:</a></h3>
 <ul>
-<li><a href="baked/./baked/pie_crust.html">Pastry dough</a></li>
+<li><a href="baked/baked/pie_crust.html">Pastry dough</a></li>
 <li>Unsalted butter (3/4 stick)</li>
 <li>Brown sugar (1/2 cup)</li>
 <li>Light corn syrup (1/2 cup)</li>
@@ -693,7 +705,8 @@ To serve, center one or two hot pancakes on serving plates and evenly drench wit
 <p>Roll out dough on a lightly floured surface with a lightly floured rolling pin into a 12-inch round and fit into a 9-inch pie plate. Trim edge, leaving a 1/2-inch overhang. Fold overhang under and lightly press against rim of pie plate, then crimp decoratively. Lightly prick bottom all over with a fork. Chill until firm, at least 30 minutes (or freeze 10 minutes).</p>
 <p>Melt butter in a small heavy saucepan over medium heat. Add brown sugar, whisking until smooth. Remove from heat and whisk in corn syrup, vanilla, zest, and salt. Lightly beat eggs in a medium bowl, then whisk in corn syrup mixture.</p>
 <p>Put pecans in pie shell and pour corn syrup mixture evenly over them. Decorate top of pie with pecans. Bake on hot baking sheet until filling is set, 50 minutes to 1 hour. Cool completely.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="pie-crust"><a class="header" href="#pie-crust">Pie Crust</a></h1>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="pie-crust"><a class="header" href="#pie-crust">Pie Crust</a></h1>
 <p>Based on <a href="https://www.epicurious.com/recipes/food/views/pastry-dough-356091">epicurious</a> recipe</p>
 <p>Calories: 1380</p>
 <h3 id="ingredients-7"><a class="header" href="#ingredients-7">Ingredients:</a></h3>
@@ -706,12 +719,13 @@ To serve, center one or two hot pancakes on serving plates and evenly drench wit
 <h3 id="directions-5"><a class="header" href="#directions-5">Directions:</a></h3>
 <p>Blend together flour, butter, and salt in a large bowl with your fingertips until mixture resembles coarse meal with some roughly pea-size butter lumps.</p>
 <p>Drizzle 3 tablespoons ice water evenly over mixture and gently stir with a fork (or pulse in processor) until incorporated.</p>
-<p>If dough doesn't yet come together in a smooth lump, add more ice water, 1/2 tablespoon at a time. From past experience, 4 tablespoons does the trick. Do not add too much water. Do not overwork dough or pastry will be tough.</p>
+<p>If dough doesn’t yet come together in a smooth lump, add more ice water, 1/2 tablespoon at a time. From past experience, 4 tablespoons does the trick. Do not add too much water. Do not overwork dough or pastry will be tough.</p>
 <p>Once dough comes together into a smooth ball, squash it down in the bowl and knead it a few more times to help spread out the butter. Press into a 5 inch disk, then wrap in plastic wrap. Chill dough for as long as the recipe that needs the pie crust calls for.</p>
 <p>Original recipe says: can be chilled up to 3 days</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="pineapple-tart"><a class="header" href="#pineapple-tart">Pineapple Tart</a></h1>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="pineapple-tart"><a class="header" href="#pineapple-tart">Pineapple Tart</a></h1>
 <h2 id="malaysingaporean"><a class="header" href="#malaysingaporean">Malay/Singaporean</a></h2>
-<p><img src="baked/./baked/pineapple_tart.jpg" alt="Original recipe" /></p>
+<p><img src="baked/baked/pineapple_tart.jpg" alt="Original recipe"></p>
 <p>Makes ~100 pieces of small tarts</p>
 <h3 id="ingredients-8"><a class="header" href="#ingredients-8">Ingredients:</a></h3>
 <ul>
@@ -734,7 +748,7 @@ To serve, center one or two hot pancakes on serving plates and evenly drench wit
 <p>Bake for 23 minutes or until golden brown at 165°C/330°F.</p>
 <p>Cool completely before storing.</p>
 <h2 id="taiwanese-v1---wip"><a class="header" href="#taiwanese-v1---wip">Taiwanese v1 - WIP</a></h2>
-<h3 id="ingredients-9"><a class="header" href="#ingredients-9">Ingredients:</a></h3>
+<h3 id="ingredients-1-1"><a class="header" href="#ingredients-1-1">Ingredients:</a></h3>
 <ul>
 <li>350g butter</li>
 <li>100g condensed milk</li>
@@ -742,30 +756,31 @@ To serve, center one or two hot pancakes on serving plates and evenly drench wit
 <li>2 egg yolks</li>
 <li>2 ripe pineapples, cut into small pieces</li>
 </ul>
-<h3 id="directions-7"><a class="header" href="#directions-7">Directions:</a></h3>
+<h3 id="directions-1-1"><a class="header" href="#directions-1-1">Directions:</a></h3>
 <p>Puree pineapples. Cook down into a paste until all moisture has evaporated. Set aside to cool slightly. When cool enough to touch, form into 20g balls and refrigerate while making the dough.</p>
 <p>Cream butter and condensed milk till light using paddle attachment.</p>
 <p>Add in egg yolk one at a time, and beat until combined.</p>
 <p>Mix in flour until mixture becomes a soft and not sticky dough.</p>
 <p>Form dough into 30g balls.</p>
-<p>Roll each ball into a large enough circle to completely enclose the filling balls without having to stretch the dough. The dough is soft but not pliable, so it will crack when stretched. Make the edges of the circle thinner than the center, because they'll gather together when wrapping the tart.</p>
+<p>Roll each ball into a large enough circle to completely enclose the filling balls without having to stretch the dough. The dough is soft but not pliable, so it will crack when stretched. Make the edges of the circle thinner than the center, because they’ll gather together when wrapping the tart.</p>
 <p>After tart is wrapped into a ball, form into a square or rectangle shape.</p>
 <p>Bake for 15 minutes 165°C/330°F. Carefully flip over the tarts. Bake for another 15 minutes.</p>
 <p>Cool completely before storing.</p>
-<h2 id="taiwanese-v2-from-aunts-recipe"><a class="header" href="#taiwanese-v2-from-aunts-recipe">Taiwanese v2 (from aunt's recipe)</a></h2>
+<h2 id="taiwanese-v2-from-aunts-recipe"><a class="header" href="#taiwanese-v2-from-aunts-recipe">Taiwanese v2 (from aunt’s recipe)</a></h2>
 <p>Coming soon!</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="scones-wip"><a class="header" href="#scones-wip">Scones (WIP)</a></h1>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="scones-wip"><a class="header" href="#scones-wip">Scones (WIP)</a></h1>
 <p>Based on <a href="https://www.fifteenspatulas.com/english-style-scones/">Fifteen Spatulas</a> recipe
 DID NOT WORK. Find more recipes</p>
 <p>Try: https://www.carolinescooking.com/british-scones/</p>
-<p>"English style"</p>
+<p>“English style”</p>
 <p>Calories:</p>
 <ul>
 <li>1992 without liquid</li>
 <li>2540 with heavy whipping cream</li>
 <li>2092 with whole milk</li>
 </ul>
-<h3 id="ingredients-10"><a class="header" href="#ingredients-10">Ingredients:</a></h3>
+<h3 id="ingredients-9"><a class="header" href="#ingredients-9">Ingredients:</a></h3>
 <ul>
 <li>All-purpose flour (280 g) (still too wet?)</li>
 <li>Baking powder (4 tsp) (16 g)</li>
@@ -775,7 +790,7 @@ DID NOT WORK. Find more recipes</p>
 <li>Egg (1 large)</li>
 <li>Milk/heavy whipping cream (2/3 cup) (160 g)</li>
 </ul>
-<h3 id="directions-8"><a class="header" href="#directions-8">Directions:</a></h3>
+<h3 id="directions-7"><a class="header" href="#directions-7">Directions:</a></h3>
 <p>Preheat oven to 425F.</p>
 <p>In a large bowl, whisk together flour, baking powder, salt, and sugar.</p>
 <p>Chop up butter into small pieces. Add butter to dry ingredients and mix with your hands until the texture is sandy and has no more butter lumps.</p>
@@ -784,7 +799,131 @@ DID NOT WORK. Find more recipes</p>
 <p>Place dough on a cutting surface and squash it to about an inch thick.</p>
 <p>Cut into desired shapes (I did 16 small triangles).</p>
 <p>Place onto baking sheet lined with parchment paper. Brush tops of scones with reserved egg wash. Bake for about 13-15 minutes until about tripled in height and golden brown on the tops and bottoms.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="applepear-cake"><a class="header" href="#applepear-cake">Apple/Pear Cake</a></h1>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="croissants-wip"><a class="header" href="#croissants-wip">Croissants (WIP)</a></h1>
+<p>Based on New York Times recipe (<a href="https://www.youtube.com/watch?v=vpwY3nmLLaA">video</a>)</p>
+<h2 id="ingredients-10"><a class="header" href="#ingredients-10">Ingredients:</a></h2>
+<p>Yield: 8 croissants</p>
+<ul>
+<li>For the Détrempe (dough)
+<ul>
+<li>4⅔ cups/605 grams all-purpose or bread flour, plus more for dusting</li>
+<li>⅓ cup/66 grams granulated sugar</li>
+<li>1 tablespoon plus ½ teaspoon/12 grams kosher salt</li>
+<li>2¼ teaspoons/7 grams active dry yeast</li>
+<li>¾ cup plus 2 tablespoons/214 grams water, at room temperature</li>
+<li>½ cup/120 grams whole milk, at room temperature</li>
+<li>¼ cup/57 grams unsalted butter, cut into ½-inch pieces, chilled</li>
+</ul>
+</li>
+<li>For the Butter Block and Assembly
+<ul>
+<li>1 ½cups/340 grams unsalted European or European-style butter (3 sticks), chilled</li>
+<li>All-purpose flour, for rolling</li>
+</ul>
+</li>
+<li>For egg wash
+<ul>
+<li>1 large egg yolk</li>
+<li>1 tablespoon heavy cream</li>
+</ul>
+</li>
+</ul>
+<h2 id="directions-8"><a class="header" href="#directions-8">Directions:</a></h2>
+<h3 id="phase-1"><a class="header" href="#phase-1">Phase 1</a></h3>
+<ol>
+<li>
+<p>Twenty-four hours before serving, start the détrempe: In the bowl of a stand mixer fitted with the dough hook, combine the flour, sugar, salt and yeast, and stir to combine. Create a well in the center, and pour in the water and milk. Mix on low speed until a tight, smooth dough comes together around the hook, about 5 minutes. Remove the hook and cover the bowl with a damp towel. Set aside for 10 minutes.</p>
+</li>
+<li>
+<p>Reattach the dough hook and turn the mixer on medium-low speed. Add the butter pieces all at once and continue to mix, scraping down the bowl and hook once or twice, until the dough has formed a very smooth, stretchy ball that is not the least bit sticky, 8 to 10 minutes.</p>
+</li>
+<li>
+<p>Form the dough into a ball and place seam-side down. Using a sharp knife, cut two deep perpendicular slashes in the dough, forming a “+.” (This will help the dough expand into a square shape as it rises, making it easier to roll out later.) Place the dough slashed-side up inside the same mixing bowl, cover with plastic wrap and let rise at room temperature until about 1½ times its original size, 45 minutes to 1 hour. Transfer the bowl to the refrigerator and chill for at least 4 hours and up to 12.</p>
+</li>
+<li>
+<p>As the dough chills, make the butter block: Place the sticks of butter side-by-side in the center of a large sheet of parchment paper, then loosely fold all four sides of the parchment over the butter to form a packet. Turn the packet over and use a rolling pin to lightly beat the cold butter into a flat scant ½-inch-thick layer, fusing the sticks and making it pliable. (Don’t worry about the shape at this point.) The parchment may tear. Turn over the packet and unwrap, replacing the parchment with a new sheet if needed. Fold the parchment paper over the butter again, this time making neat, clean folds at right angles (like you’re wrapping a present), forming an 8-inch square. Turn the packet over again and roll the pin across the packet, further flattening the butter into a thin layer that fills the entire packet while forcing out any air pockets. The goal is a level and straight-edged square of butter. Transfer the butter block to the refrigerator.</p>
+</li>
+</ol>
+<h3 id="phase-2"><a class="header" href="#phase-2">Phase 2</a></h3>
+<ol>
+<li>
+<p>Eighteen hours before serving, remove the dough from the refrigerator, uncover and transfer to a clean work surface. (It will have doubled in size.) Deflate the dough with the heel of your hand. Using the four points that formed where you slashed the dough, stretch the dough outward and flatten into a rough square measuring no more than 8 inches on one side.</p>
+</li>
+<li>
+<p>Place 2 pieces of plastic wrap on the work surface perpendicular to each other, and place the dough on top. Wrap the dough rectangle, maintaining the squared-off edges, then roll your pin over top as you did for the butter, forcing the dough to fill in the plastic and form an 8-inch square with straight sides and right angles. Freeze for 20 minutes.</p>
+</li>
+<li>
+<p>Take butter out from fridge a few minutes early. Remove the butter from the refrigerator and the dough from the freezer. Set aside the butter. Unwrap the dough (save the plastic, as you’ll use it again) and place on a lightly floured surface. Roll the dough, dusting with flour if necessary, until 16 inches long, maintaining a width of 8 inches (barely wider than the butter block). With a pastry brush, brush off any flour from the surface of the dough and make sure none sticks to the surface.</p>
+</li>
+<li>
+<p>You’re going to enclose the butter block in the dough and roll them out together. To ensure they do so evenly, they should have the same firmness, with the dough being slightly colder than the butter. The butter should be chilled but able to bend without breaking. If it feels stiff or brittle, let sit at room temperature for a few minutes. Unwrap the butter just so the top is exposed, then use the parchment paper to carefully invert the block in the center of the dough rectangle, ensuring all sides are parallel. Press the butter gently into the dough and peel off the parchment paper. You should have a block of butter with overhanging dough on two opposite sides and a thin border of dough along the other two.</p>
+</li>
+<li>
+<p>Grasp the overhanging dough on one side and bring it over the butter toward the center, then repeat with the other side of the dough, enclosing the butter. You don’t need the dough to overlap, but you want the two sides to meet, so stretch it if necessary, and pinch the dough together along all seams so no butter peeks out anywhere. Lift the whole block and dust a bit of flour underneath, then rotate the dough 90 degrees, so the center seam is oriented vertically.</p>
+</li>
+<li>
+<p>Orient the rolling pin perpendicular to the seam and lightly beat the dough all along the surface to lengthen and flatten. Roll out the dough lengthwise along the seam into a 24-inch-long, ¼-inch-thick narrow slab, lightly dusting underneath and over top with more flour as needed to prevent sticking. Rather than applying pressure downward, try to push the dough toward and away from you with the pin, which will help maintain even layers of dough and butter. Remember to periodically lift the dough and make sure it’s not sticking to the surface, and try your best to maintain straight, parallel sides. (It’s OK if the shorter sides round a bit — you’re going to trim them.)</p>
+</li>
+<li>
+<p>Use a wheel cutter or long, sharp knife to trim the shorter ends, removing excess dough where the butter doesn’t fully extend and squaring off the corners for a very straight-edged, even rectangle of dough. Maintaining the rectangular shape, especially at this stage, will lead to the most consistent and even lamination. If at any point in the process you see air bubbles in the dough while rolling, pierce them with a cake tester or the tip of a paring knife to deflate and proceed.</p>
+</li>
+<li>
+<p>Dust any flour off the dough’s surface. Grasp the short side of the rectangle farther from you and fold it toward the midline of the dough slab, aligning the sides. Press gently so the dough adheres to itself. Repeat with the other side of the dough, leaving an ⅛-inch gap where the ends meet in the middle. Now, fold the entire slab in half crosswise along the gap in the center. You should now have a rectangular packet of dough, called a “book,” that’s four layers thick. This is a “double turn,” and it has now quadrupled the number of layers of butter inside the dough.</p>
+</li>
+<li>
+<p>Wrap the book tightly in the reserved plastic. If it is thicker than about 1½ inches, or if it’s lost some of its rectangularity, roll over the plastic-wrapped dough to flatten it and reshape it. Freeze the book for 20 minutes, then refrigerate for 1 hour.</p>
+</li>
+<li>
+<p>Let the dough sit at room temperature for about 5 minutes. Unwrap and place on a lightly floured surface. Beat the dough and roll out as before (Step 10) into another long, narrow ⅜-inch-thick slab. It should be nice and relaxed, and extend easily. Dust off any excess flour.</p>
+</li>
+<li>
+<p>Fold the dough in thirds like a letter, bringing the top third of the slab down and over the center third, then the bottom third up and over. This is a “simple turn,” tripling the layers. Press gently so the layers adhere. Wrap tightly in plastic again and freeze for 20 minutes, then refrigerate for 1 hour.</p>
+</li>
+<li>
+<p>Let the dough sit at room temperature for about 5 minutes, then unwrap and place on a lightly floured surface. Beat the dough and roll out as before, but into a 14-by-17-inch slab (14 wide 17 long) (15-by-16-inch for pain au chocolat or ham and cheese croissants). The dough will start to spring back, but try to get it as close to those dimensions as possible. Brush off any excess flour, wrap tightly in plastic, and slide onto a baking sheet or cutting board. Freeze for 20 minutes [video doesn’t have the freeze], then chill overnight (8 to 12 hours). If making pain au chocolat or ham and cheese croissants, see recipes.</p>
+</li>
+</ol>
+<h3 id="phase-3"><a class="header" href="#phase-3">Phase 3</a></h3>
+<ol>
+<li>
+<p>Four and a half hours before serving, arrange racks in the upper and lower thirds of the oven. Bring a skillet of water to a simmer over medium-high heat. Transfer the skillet to the floor of the oven and close the door. (The steam released inside the oven will create an ideal proofing environment.)</p>
+</li>
+<li>
+<p>As the steam releases in the oven, line two rimmed baking sheets with parchment paper and set aside. Let the dough sit at room temperature for about 5 minutes. Unwrap (save the plastic for proofing), place on a very lightly floured surface, and, if necessary, roll out to 17-by-14 inches (3-3.5mm thick). Very thoroughly dust off any excess flour with a pastry brush. Use a wheel cutter or long knife and ruler to cut the shorter sides, trimming any irregular edges where not all the layers of dough fully extend and creating a rectangle that’s exactly 16 inches long, then cut into four 4-by-14-inch rectangles.</p>
+</li>
+<li>
+<p>Separate the rectangles, then use the ruler and wheel cutter to slice a straight line from opposite corners of one rectangle to form two long, equal triangles. Repeat with the remaining rectangles to make 8 triangles. Trim the short side of each triangle at a slight angle, making them into triangles with longer sides of equal length.</p>
+</li>
+<li>
+<p>Working one triangle at a time, grasp the two corners of the shorter end, the base of the crescent, and tug gently outward to extend the points and widen the base to about 3 inches. Then, gently tug outward from about halfway down the triangle all the way to the point, to both lengthen the triangle and thin the dough as it narrows. Starting at the base (the short end), snugly roll up the dough, keeping the point centered and applying light pressure. Try not to roll tightly or stretch the dough around itself. Place the crescent on one of the parchment-lined baking sheets, resting it on the point of the triangle. If the dough gets too soft while you’re working, cover the triangles and freeze for a few minutes before resuming rolling. Space them evenly on the baking sheets, four per sheet. Very loosely cover the baking sheets with slightly oiled plastic wrap, so the croissants have some room to expand.</p>
+</li>
+<li>
+<p>Three and a half hours before serving, open the oven and stick your hand inside: It should be humid but not hot, as the water in the skillet will have cooled. You want the croissants to proof at 70 to 75 degrees. (Any hotter and the butter will start to melt, leading to a denser croissant.) Place the baking sheets inside the oven and let the croissants proof until they’re about doubled in size, extremely puffy, and jiggle delicately when the baking sheet is gently shaken, 2 to 2½ hours. Resist the urge to touch or poke the croissants as they proof: They’re very delicate. Try not to rush this process, either, as an underproofed croissant will not be as light and ethereal.</p>
+</li>
+<li>
+<p>Remove the baking sheets from the oven and carefully uncover them, then transfer to the refrigerator and chill for 20 minutes [try: longer?] while you heat the oven. Remove the skillet from the oven and heat to 375 degrees.</p>
+</li>
+<li>
+<p>In a small bowl, stir the yolk and heavy cream until streak-free. Using a pastry brush, gently brush the smooth surfaces of each crescent with the yolk and cream mixture, doing your best to avoid the cut sides with exposed layers of dough.</p>
+</li>
+<li>
+<p>Transfer the sheets to the oven and bake for 20 minutes. Rotate the baking sheets and switch racks, and continue to bake until the croissants are deeply browned, another 10 to 15 minutes. Remove from the oven and let cool completely on the baking sheets.</p>
+</li>
+</ol>
+<p>Tip</p>
+<ul>
+<li>Croissants are best within an hour or two of baking. After that, revive the croissants by warming in a 350-degree oven for 5 to 8 minutes. Keep wrapped airtight at room temperature.</li>
+</ul>
+<p>12/26/2025</p>
+<ul>
+<li>Proofed for 4 hours in 70-75F temp range</li>
+<li>Quite a bit of butter leakage; slight flattening</li>
+<li>A bit too browned/crunchy</li>
+<li>Next time, try more proofing; maybe longer rest in fridge before baking; slightly shorter bake time</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="applepear-cake"><a class="header" href="#applepear-cake">Apple/Pear Cake</a></h1>
 <h3 id="ingredients-11"><a class="header" href="#ingredients-11">Ingredients</a></h3>
 <ul>
 <li>Slightly over 2lbs apples or pears</li>
@@ -842,6 +981,11 @@ DID NOT WORK. Find more recipes</p>
 
         </div>
 
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
 
 
 
@@ -850,13 +994,13 @@ DID NOT WORK. Find more recipes</p>
         </script>
 
 
-        <script src="elasticlunr.min.js"></script>
-        <script src="mark.min.js"></script>
-        <script src="searcher.js"></script>
+        <script src="elasticlunr-ef4e11c1.min.js"></script>
+        <script src="mark-09e88c2c.min.js"></script>
+        <script src="searcher-c2a407aa.js"></script>
 
-        <script src="clipboard.min.js"></script>
-        <script src="highlight.js"></script>
-        <script src="book.js"></script>
+        <script src="clipboard-1626706a.min.js"></script>
+        <script src="highlight-abc7f01d.js"></script>
+        <script src="book-a0b12cfe.js"></script>
 
         <!-- Custom JS scripts -->
 
