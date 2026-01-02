@@ -1,4 +1,4 @@
 [book]
 title = "Recipes & Recetas"
-author = "Andres Medina, Yvonne Chen"
+authors = ["Andres Medina", "Yvonne Chen"]
 description = "Recipes of (mostly peruvian) meals and baked goods"
