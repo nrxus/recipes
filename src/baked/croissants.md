@@ -22,6 +22,11 @@ Yield: 8 croissants
     * 1 large egg yolk
     * 1 tablespoon heavy cream
 
+
+## Notes
+
+* Letting dough sit for a bit after removing from fridge is important; if butter is too hard during roll out, it'll break instead of spread out
+
 ## Directions:
 
 ### Phase 1
@@ -72,7 +77,7 @@ Yield: 8 croissants
 
 1. Three and a half hours before serving, open the oven and stick your hand inside: It should be humid but not hot, as the water in the skillet will have cooled. You want the croissants to proof at 70 to 75 degrees. (Any hotter and the butter will start to melt, leading to a denser croissant.) Place the baking sheets inside the oven and let the croissants proof until they’re about doubled in size, extremely puffy, and jiggle delicately when the baking sheet is gently shaken, 2 to 2½ hours. Resist the urge to touch or poke the croissants as they proof: They’re very delicate. Try not to rush this process, either, as an underproofed croissant will not be as light and ethereal.
 
-1. Remove the baking sheets from the oven and carefully uncover them, then transfer to the refrigerator and chill for 20 minutes [try: longer?] while you heat the oven. Remove the skillet from the oven and heat to 375 degrees.
+1. Remove the baking sheets from the oven and carefully uncover them, then transfer to the refrigerator and chill for 20 minutes while you heat the oven. Remove the skillet from the oven and heat to 375 degrees.
 
 1. In a small bowl, stir the yolk and heavy cream until streak-free. Using a pastry brush, gently brush the smooth surfaces of each crescent with the yolk and cream mixture, doing your best to avoid the cut sides with exposed layers of dough.
 
@@ -86,3 +91,14 @@ Tip
 * Quite a bit of butter leakage; slight flattening
 * A bit too browned/crunchy
 * Next time, try more proofing; maybe longer rest in fridge before baking; slightly shorter bake time
+
+02/01/2026
+* Final roll out before shaping wasn't quite 14inch wide; but seemed to proof alright
+* Proofed for 2.5 hours in 73-79F temp range, maybe more towards the higher end. Turned on oven light at 73F, turned light off when it reached back up to 77F. They got THICK
+* Layers post bake:
+* Didn't brown up as much as first time. Maybe rolling technique wasn't quite event?
+* Next time
+  * try 400F for 20 min total? 3 hr proof?
+  * Thinner roll out, make sure it's around 1/4 inch
+  * Could try slightly less cold butter to make the butter block
+  * Before rolling triangles, cut small slit at base to spread corners (supposedly helps middle be less dense)
