@@ -23,3 +23,15 @@
 400 g sugar
 
 24 fl oz evaporated milk
+
+**** NEW RECIPE *******
+
+300 g mantequilla
+187.5 g maicena
+262.5 g harina
+30 g azúcar impalpable (cut by a third from original)
+6 g sal
+4 g anís
+50g agua - si se usa el procesador
+
+340F - 12 minutes
